@@ -8,6 +8,9 @@
 
     /* background-color: red; */
     background-color: azure;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
 }
 
 
@@ -34,12 +37,14 @@
 
 
 
+
 .right_box{
 
     display:flex;
     flex-direction:column;
     justify-content: space-evenly;
     gap: 5px;
+   
 
 
 }
@@ -93,6 +98,25 @@ color:blueviolet;
     border-radius: 7%;
 }
 
+
+.menu_button{
+display: none;
+margin-right: 5rem;
+height: 3rem;
+width: 3rem;
+border-radius: 11%;
+border: 3px solid black;
+
+}
+
+.menu_icon{
+
+    height: 1.7rem;
+    width: 1.7rem;
+    /* padding: 1.5em; */
+    /* margin-right:5rem; */
+    /* background-color: #96e6a1; */
+}
 
 
 
