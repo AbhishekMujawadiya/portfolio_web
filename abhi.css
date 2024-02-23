@@ -101,11 +101,12 @@ color:blueviolet;
 
 .menu_button{
 display: none;
-margin-right: 5rem;
+/* margin-right: 5rem; */
 height: 3rem;
 width: 3rem;
 border-radius: 11%;
-border: 3px solid black;
+/* border: 3px solid black; */
+cursor: pointer;
 
 }
 

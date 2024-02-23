@@ -5,8 +5,10 @@
 .header_content {
 
 display:flex;
-/* flex-direction: column; */
-gap:1.5rem;
+flex-direction: column;
+justify-content: space-around;
+/* gap:1.5rem; */
+/* margin-top: 0.5rem; */
 
 }
 
@@ -16,7 +18,7 @@ gap:1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
 }
 
 
@@ -53,9 +55,20 @@ color: red;
 .menu_button{
 
     display: block;
+    width:100vw;
+    /* border: 3px solid black; */
+    border-radius: 5%;
+}
+
+.menu_icon{
+
+    width:100%;
 }
 
 }
+
+
+
 
 
 
