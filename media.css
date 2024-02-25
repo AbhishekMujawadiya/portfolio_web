@@ -1,12 +1,12 @@
 
-@media screen and (max-width:651px) {
+@media screen and (max-width:768px) {
 
 
 .header_content {
 
 display:flex;
-flex-direction: column;
-justify-content: space-around;
+
+justify-content: space-between;
 /* gap:1.5rem; */
 /* margin-top: 0.5rem; */
 
@@ -55,7 +55,7 @@ color: red;
 .menu_button{
 
     display: block;
-    width:100vw;
+
     /* border: 3px solid black; */
     border-radius: 5%;
 }
@@ -63,6 +63,41 @@ color: red;
 .menu_icon{
 
     width:100%;
+    display: block;
+}
+
+
+.hero_section_1 {
+
+/* display: flex; */
+flex-direction: column;
+
+
+}
+
+.hero_left_box {
+
+    max-width: 100%;
+    /* margin: 0 auto; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.hero_heading{
+
+    font-size: 2.3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.hero_desc{
+    width: 100%;
+    text-align: center;
 }
 
 }
