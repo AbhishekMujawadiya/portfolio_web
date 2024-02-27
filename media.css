@@ -66,6 +66,11 @@ color: red;
     display: block;
 }
 
+.hero_right_box{
+
+    height: 45vh;
+}
+
 
 .hero_section_1 {
 
@@ -74,6 +79,8 @@ flex-direction: column;
 
 
 }
+
+
 
 .hero_left_box {
 
@@ -88,18 +95,22 @@ flex-direction: column;
 }
 
 
+
 .hero_heading{
 
     font-size: 2.3rem;
     width: 100%;
     text-align: center;
 }
-
 .hero_desc{
     width: 100%;
     text-align: center;
 }
 
+
+
+
+
 }
 
 
@@ -108,4 +119,25 @@ flex-direction: column;
 
 
 
+@media  screen and (max-width:675px) {
+ 
+    .hero_right_box{
 
+        height:41vh;
+        width: 55vw;
+    }
+
+    .hero_section_2_heading{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media  screen and (max-width:731px) {
+
+    .company_container {
+
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
