@@ -508,3 +508,76 @@ color: white;
 .feature_card p {
     color: white;
 }
+
+
+
+
+
+
+/* TESTIMONIAL SECTION DESIGNING */
+
+
+
+.testimonial_section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+ /* align-items: center; */
+ text-align: center;
+ margin: 1rem;
+ font-family: 'Inter', sans-serif; 
+ padding: 2.1rem;
+ margin:0 auto;
+ max-width: 1285px;
+
+}
+
+.testimonial_heading {
+    font-size: 1.9rem;
+}
+
+
+
+.testimonial_grid {
+
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(311px,1fr));
+    gap: 2rem;
+/* align-items: center; */
+/* align-self: center; */
+
+    
+}
+
+.testimonial_card {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(171, 163, 163);
+    padding: 1rem;
+    gap: 1rem;
+border-radius: 1rem;
+
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+} 
+
+
+
+.testimonial_card p {
+    font-size: 0.85rem;
+}
+
+.testimonial_card img{
+
+height: 5.1rem;
+
+
+}
+
+.testimonial_card h6 {
+
+    font-size: 1.1rem;
+    color: var(--primary-color);
+
+}
